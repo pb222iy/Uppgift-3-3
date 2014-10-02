@@ -1,1 +1,86 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+@charset "UTF-8";
+
+/*
+*
+{
+	border: 1px solid gray;
+}
+*/
+
+div#container
+{
+	width: 600px;
+	margin: auto;
+}
+
+div#topbar
+{
+	text-align: right;
+}
+
+ul, li
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}	
+
+/* NAV */
+	div#menu > a
+	{
+		display: none;
+	}
+	
+	div#menu
+	{
+		
+	}
+	
+	div#menu ul
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	div#menu ul li
+	{
+		display: inline-block;
+	}
+	
+	div#menu ul li a
+	{
+		display: block;
+		border: 1px solid black;
+		text-transform: capitalize;
+		margin: 0;
+		padding:5px 10px;
+	}
+	
+	
+/* MAIN CONTENT */
+	div#maincontent
+	{
+		display: inline-block;
+		width: 380px;
+	
+		vertical-align: top;
+	}
+	
+	div#maincontent img
+	{
+		float: left;
+	}
+	
+/* SUB CONTENT */
+	div#subcontent
+	{
+		display: inline-block;
+		width: 200px;
+	
+		vertical-align: top;
+	}
+	
+/* BOTTOM CONTENT */
+	div#bottomcontent
+	{
+	}
