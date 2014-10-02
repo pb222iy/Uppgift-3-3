@@ -63,7 +63,7 @@ div#topbar
 	div#menu
 	{
 		position: relative;
-		height: 230px;
+		height: 235px;
 		
 		background-image: url( pics/coffey.jpg );
 		background-repeat: no-repeat;
@@ -74,7 +74,7 @@ div#topbar
 		position: relative;
 		top: 200px;
 		width: 600px;
-		height: 33px;
+		height: 35px;
 		margin: 0;
 		padding: 0;
 		
@@ -93,16 +93,21 @@ div#topbar
 	{
 		display: block;
 		margin: 5px 1px 0 0;
-		padding: 5px 15px;
+		padding: 7px 15px;
 		text-transform: capitalize;
 		text-decoration: none;
 		
 		background-color: #797066;
 		border-top: 1px solid #847c73;
 		color: #eae7d2;
-		font-size: 14px;
+		font-size: 12px;
 	}
 
+	div#menu ul li a:hover
+	{
+		background-color: #9c9084;
+	}
+	
 	div#menu ul li.active a
 	{
 		position: relative;
@@ -111,11 +116,6 @@ div#topbar
 		background-color: #eae7d2;
 		border-top: 1px solid #eae7d2;
 		color: #888076;
-	}
-	
-	div#menu ul li a:hover
-	{
-		background-color: #9c9084;
 	}
 	
 	div#menu ul li:first-child
@@ -189,4 +189,7 @@ div#topbar
 /* BOTTOM CONTENT */
 	div#bottomcontent
 	{
+		padding: 10px;
+		font-size: .6em;
+		font-style: italic;
 	}
