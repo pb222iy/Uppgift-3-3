@@ -2,6 +2,7 @@
 
 /* I hereby dedicate this css to tea(y). */
 
+
 /*
 *
 {
@@ -19,12 +20,16 @@ ul, li
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}	
+}
+
+p
+{
+	margin: 0;
+}
 
 a
 {
 	color: #51473d;
-	text-decoration: none;
 }
 
 div#container
@@ -90,6 +95,7 @@ div#topbar
 		margin: 5px 1px 0 0;
 		padding: 5px 15px;
 		text-transform: capitalize;
+		text-decoration: none;
 		
 		background-color: #797066;
 		border-top: 1px solid #847c73;
@@ -122,8 +128,10 @@ div#topbar
 	div#maincontent
 	{
 		display: inline-block;
-		width: 360px;
+		width: 350px;
+		margin: 30px 0 0 0;
 		padding: 10px;
+		padding-bottom: 0;
 		vertical-align: top;
 		
 		border-right: 1px dashed #c0c0c0;
@@ -143,15 +151,39 @@ div#topbar
 		font-family: "Times New Roman", serif;
 		font-size: 2em;
 		font-weight: normal;
+		margin: 0 0 20px 0;
 	}
 	
 /* SUB CONTENT */
 	div#subcontent
 	{
 		display: inline-block;
-		width: 200px;
-	
+		width: 210px;
+		margin: 30px 0 0 0;
+		padding: 10px 0 0 5px;
 		vertical-align: top;
+		
+		font-size: .6em;
+		line-height: 2em;
+	}
+	
+	div#subcontent h1, div#subcontent h2
+	{
+		font-family: "Times New Roman", serif;
+		font-size: 2em;
+		font-weight: normal;
+		margin: 0 0 20px 0;
+	}
+	
+	div#subcontent h2
+	{
+		font-size: 1.5em;
+		margin: 20px 0 0 0;
+	}
+	
+	div#subcontent a
+	{
+		font-size: 1.3em;
 	}
 	
 /* BOTTOM CONTENT */
