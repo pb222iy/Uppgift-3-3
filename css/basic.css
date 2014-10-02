@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* I hereby dedicate this css to tea(y). */
+
 /*
 *
 {
@@ -38,7 +40,7 @@ div#container
 
 div#topbar
 {
-	padding: 2px;
+	padding: 4px;
 	background-color: #51473d;
 	
 	color: #eae7d2;
@@ -55,14 +57,26 @@ div#topbar
 	
 	div#menu
 	{
-		background-color: #51473d;
-		border-bottom: white;
+		position: relative;
+		height: 230px;
+		
+		background-image: url( pics/coffey.jpg );
+		background-repeat: no-repeat;
 	}
 	
 	div#menu ul
 	{
+		position: relative;
+		top: 200px;
+		width: 600px;
+		height: 33px;
 		margin: 0;
 		padding: 0;
+		
+		background-color: #51473d;
+		border-bottom: 1px solid white;
+		
+		font-size: 0px;
 	}
 	
 	div#menu ul li
@@ -73,21 +87,34 @@ div#topbar
 	div#menu ul li a
 	{
 		display: block;
-		margin: 0;
-		padding:5px 10px;
+		margin: 5px 1px 0 0;
+		padding: 5px 15px;
 		text-transform: capitalize;
 		
 		background-color: #797066;
 		border-top: 1px solid #847c73;
 		color: #eae7d2;
-		
+		font-size: 14px;
 	}
 
 	div#menu ul li.active a
 	{
+		position: relative;
+		top: 1px;
+		
 		background-color: #eae7d2;
 		border-top: 1px solid #eae7d2;
 		color: #888076;
+	}
+	
+	div#menu ul li a:hover
+	{
+		background-color: #9c9084;
+	}
+	
+	div#menu ul li:first-child
+	{
+		margin-left: 10px;
 	}
 	
 	
